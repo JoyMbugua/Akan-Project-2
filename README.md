@@ -5,7 +5,7 @@ This is a simple web app that matches a user's birthday with a name from the Aka
 ## To checkout the code, see below the installation requirements
 * Requirements- a browser and a text editior
 ## Steps:
-* git clone https://github.com/JoyMbugua/The-Akan-Project.git
+* git clone https://github.com/JoyMbugua/Akan-Project-2.git
 * cd The-Akan-Project
 * open in a text-editor
 
