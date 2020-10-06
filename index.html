@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>The Akan Machine</h1>
+    </header>
+        <div>
+            <p>Ghana is a West African country that is known for its rich culture. The country has approximately one hundred tribes! with the biggest being the Akan. 
+                One of the cultures of this tribe is allocating names at birth based on the day of the week. If you would like to find out what would be your Akan name just 
+                fill the form below and see! easy peasy!</p>
+        </div>
+
+        <div class="container"> 
+                <div class="panel panel-default">
+                    <div class="panel-heading">Enter Your Date of Birth:</div> <br>
+                        <div class="panel-body">
+                            <form>
+                            <input type="text" name="dateProvided" id="dateProvided" placeholder="mm/dd/yyyy"> <br> 
+                            
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label> <br>
+                            
+                            <input type="radio" id="male" name="gender" value="male">
+                             <label for="male">Male</label> <br> <br>
+                            <button onclick="myFunction(); return false" class="btn btn-success">
+                            Hit Me!
+                            </button>
+                            <input type="reset" class="btn btn-warning">
+                            <br>
+                            <br>
+                            <label for="comment">Results:</label>
+                             <textarea class="form-control" rows="5" id="message"></textarea>
+                            </form>
+                        </div>
+                 </div>
+        </div> 
+    <script src="js/main.js"></script>
+</body>
+</html>
